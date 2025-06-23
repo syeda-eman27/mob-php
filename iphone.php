@@ -2,7 +2,8 @@
 include 'dbconfig.php';
 // include 'navbar.php';
 // Query to get iPhones from 'mobiles' table
-$sql = "SELECT * FROM mobiles WHERE MobileCat = 'iphone'";
+// $sql = "SELECT * FROM mobiles WHERE MobileCat = 'iphone'";
+$sql = "SELECT * FROM mobiles WHERE MobileCatag = 'iphone'";
 $result = mysqli_query($conn, $sql);
 
 if (!$result) {
@@ -25,10 +26,10 @@ if (!$result) {
     <?php while ($row = mysqli_fetch_assoc($result)) { ?>
       <div class="col-md-4 mb-4">
         <div class="card h-100 shadow">
-          <img src="<?php echo $row['MobImgPath']; ?>" class="card-img-top" alt="Product Image" style="height: 300px; object-fit: contain;">
+        <img src="<?php echo $row['MobileImgPath']; ?>" class="card-img-top" alt="Product Image" style="height: 300px; object-fit: contain;">
           <div class="card-body">
             <h5 class="card-title"><?php echo $row['MobileName']; ?></h5>
-            <p class="card-text">Rs. <?php echo number_format($row['MobilePrice']); ?></p>
+            <p class="card-text">Rs. <?php echo number_format($row['MobliePrice']); ?></p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary w-100">Add to Cart</a>
