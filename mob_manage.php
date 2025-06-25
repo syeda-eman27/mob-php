@@ -34,11 +34,11 @@ mysqli_query($conn,$sql);
                      <label for="mobCateg" class="form-label">Category:</label>
                        <select class="form-select" id="mobCateg" name="mobCateg" required>
                            <option value="" selected disabled>Select Category</option>
-                          <option value="Smartphone">Smartphone</option>
-                           <option value="Feature Phone">Feature Phone</option>
-                            <option value="Gaming Phone">Gaming Phone</option>
-                                <option value="Foldable">Foldable</option>
-                                  <option value="Budget">Budget</option>
+                          <option value="Smartphone">iphone</option>
+                           <option value="Feature Phone">samsung</option>
+                            <option value="Gaming Phone">oppo</option>
+                                <option value="Foldable">infinix</option>
+                                  <option value="Budget">realmei</option>
                                     <option value="Flagship">Flagship</option>
                                   </select>
                            </div>

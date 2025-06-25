@@ -3,14 +3,27 @@ include 'dbconfig.php';
 // include 'navbar.php';
 // Query to get iPhones from 'mobiles' table
 // $sql = "SELECT * FROM mobiles WHERE MobileCat = 'iphone'";
+
 $sql = "SELECT * FROM mobiles WHERE MobileCatag = 'iphone'";
 $result = mysqli_query($conn, $sql);
 
 if (!$result) {
     die("SQL Error: " . mysqli_error($conn));
 }
-?>
 
+// $sql = "SELECT * FROM mobiles WHERE MobileCatag = 'iphone'";
+// $result = mysqli_query($conn, $sql);
+
+// if (!$result) {
+//     die("Query Failed: " . mysqli_error($conn));
+// }
+
+// while ($row = mysqli_fetch_assoc($result)) {
+//     echo "<h3>" . $row['MobileName'] . "</h3>";
+//     echo "<p>Price: " . $row['MobilePrice'] . "</p>";
+//     echo "<img src='" . $row['MobileImgPath'] . "' width='100'><hr>";
+// }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
