@@ -35,7 +35,7 @@ $row = mysqli_fetch_assoc($result);
 
         <div class="mb-3">
             <label class="form-label">Description</label>
-            <textarea name="MobileDesc" class="form-control" required><?php $row['MobileDesc'] ?></textarea>
+            <textarea name="MobileDesc" class="form-control" required><?= $row['MobileDesc'] ?></textarea>
         </div>
 
         <div class="mb-3">
