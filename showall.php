@@ -39,7 +39,6 @@ if ($result && mysqli_num_rows($result) > 0) {
 ?>
     </div>
     <a href="iphone.php" class="btn btn-secondary mt-4">Show Only iPhones</a>
-    <a href="oppo.php" class="btn btn-secondary mt-4">Show Only Oppo</a>
     <a href="samsung.php" class="btn btn-secondary mt-4">Show Only Samsung</a>
     <a href="realMei.php" class="btn btn-secondary mt-4">Show Only Real-Mei</a>
 
