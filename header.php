@@ -12,9 +12,6 @@
           <a class="nav-link active" aria-current="page" href="./index.php?pageid=iphone">Iphone</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./index.php?pageid=oppo">Oppo</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="./index.php?pageid=samsung">Samgsung</a>
         </li>
         <li class="nav-item">
