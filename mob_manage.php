@@ -31,15 +31,14 @@ mysqli_query($conn,$sql);
                             <input type="text" class="form-control" id="mobname" name="mobname" required>
                         </div>
                         <div class="mb-3">
-                     <label for="mobCateg" class="form-label">Category:</label>
+                     <label for="" class="form-label">Category:</label>
                        <select class="form-select" id="mobCateg" name="mobCateg" required>
                            <option value="" selected disabled>Select Category</option>
-                          <option value="Smartphone">iphone</option>
-                           <option value="Feature Phone">samsung</option>
-                            <option value="Gaming Phone">oppo</option>
-                                <option value="Foldable">infinix</option>
-                                  <option value="Budget">realmei</option>
-                                    <option value="Flagship">Flagship</option>
+                          <option value="iphone">iphone</option>
+                           <option value="samsung">samsung</option>
+                            <option value="oppo">oppo</option>
+                                <option value="infinix">infinix</option>
+                                  <option value="realmei">realmei</option>
                                   </select>
                            </div>
                         <div class="mb-3">
